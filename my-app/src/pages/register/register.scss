@@ -1,0 +1,84 @@
+.register {
+  height: 100vh;
+  background-color: rgba(39, 38, 37, 0.114);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 600px;
+    overflow: hidden;
+
+    .left {
+      flex: 1;
+      background: linear-gradient(rgba(248, 132, 0, 0.564), rgba(22, 11, 1, 0.5)),
+        url("https://images.squarespace-cdn.com/content/v1/593182fe1b631b5f3b292c0a/1498818921794-TS40O2W4KUSUPQK1Y046/image-asset.jpeg?format=1000w")
+          center;
+      background-size: cover;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+
+      h1 {
+        font-size: 100px;
+        line-height: 100px;
+      }
+      
+      span {
+        font-size: 14px;
+      }
+      
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background-color: rgb(248, 248, 248);
+        color: rgb(238, 115, 6);
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      justify-content: center;
+
+      h1 {
+      color: #555;
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+        input {
+        border: none;
+        border-bottom: 1px solid lightgray;
+        padding: 20px 10px;
+        }
+        
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          background-color: rgb(248, 248, 248);
+          color: rgb(0, 0, 0);
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
