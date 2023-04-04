@@ -13,10 +13,10 @@ const Share = () => {
       <div className="container">
         <div className="top">
           <img
-            src={currentUser.profilePic}
+            src="https://media.istockphoto.com/id/112156576/photo/construction-worker-having-coffee-break-on-construction-site.jpg?s=612x612&w=0&k=20&c=iY50HBpWWbW19gHyIrfQL8Hx4xzgJlc8Vsq5PbHrXBE="
             alt=""
           />
-          <input type="text" placeholder={`What's on your mind ${currentUser.name}?`} />
+          <input type="text" placeholder={`What's on your mind Thiago Taujiro?`} />
         </div>
         <hr />
         <div className="bottom">

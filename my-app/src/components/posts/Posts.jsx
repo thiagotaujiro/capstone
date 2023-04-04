@@ -19,7 +19,7 @@ const Posts = () => {
       userId: 2,
       profilePic:
         "https://media.istockphoto.com/id/112156576/photo/construction-worker-having-coffee-break-on-construction-site.jpg?s=612x612&w=0&k=20&c=iY50HBpWWbW19gHyIrfQL8Hx4xzgJlc8Vsq5PbHrXBE=",
-      desc: "My boss is looking for Traffic Controller if someone is free or know someone who want get a shift, please let me know...",
+      desc: "My boss is looking for Traffic Controller if someone is free or know someone who want to get a shift, please let me know...",
     },
   ];
 

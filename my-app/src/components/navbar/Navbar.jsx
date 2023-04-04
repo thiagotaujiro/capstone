@@ -40,10 +40,10 @@ const Navbar = () => {
         <NotificationsOutlinedIcon />
         <div className="user">
           <img
-            src={currentUser.profilePic}
+            src="https://media.istockphoto.com/id/112156576/photo/construction-worker-having-coffee-break-on-construction-site.jpg?s=612x612&w=0&k=20&c=iY50HBpWWbW19gHyIrfQL8Hx4xzgJlc8Vsq5PbHrXBE="
             alt=""
           />
-          <span>{currentUser.name}</span>
+          <span>Thiago Taujiro</span>
         </div>
       </div>
     </div>
