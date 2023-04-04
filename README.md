@@ -5,6 +5,7 @@ Capstone IOD
 FIRST STEP:
 
 NPM install react-router-dom
+
 NPM instal @mui/icons-material @mui/material @emotion/styled @emotion/react
 
 SECOND STEP:
@@ -21,4 +22,5 @@ THIRD STEP:
 INSIDE API FOLDER:
 
 NPM install add express mysql nodemon
+
 node .\server.js
