@@ -21,3 +21,5 @@ export const DarkModeContextProvider = ({ children }) => {
     </DarkModeContext.Provider>
   );
 };
+
+// darkmode and toglle fuction in wrapped on index.js line 11

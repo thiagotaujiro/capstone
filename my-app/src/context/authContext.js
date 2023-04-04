@@ -6,9 +6,8 @@ export const AuthContextProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(
     JSON.parse(localStorage.getItem("user")) || null
   );
-
+ // Need to create using date base the login
   const login = () => {
-    //TO DO
     setCurrentUser({
       id: 1,
       name: "Thiago Taujiro",
